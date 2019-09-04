@@ -1,6 +1,6 @@
 package animalkingdom;
 
-public class Birds implements Animal
+public class Birds implements Animals
 
 {
     private int food = 0;

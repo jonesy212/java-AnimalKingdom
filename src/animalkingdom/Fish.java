@@ -1,6 +1,6 @@
 package animalkingdom;
 
-public class Fish implements Animal
+public class Fish implements Animals
 {
     private int food = 0;
     private String name;

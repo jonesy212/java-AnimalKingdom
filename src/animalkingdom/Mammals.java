@@ -1,9 +1,14 @@
 package animalkingdom;
 
-public class Mammals implements Animal
+public class Mammals implements Animals
 {
     private int food = 0;
     private String name;
+
+    public Mammals()
+    {
+
+    }
 
     public Mammals(String name)
     {
@@ -20,21 +25,28 @@ public class Mammals implements Animal
         this.name = name;
     }
 
+    //implement the interfaces
+
     @Override
     public void move()
     {
-        return "walk"
+        // return "walk";
     }
 
     @Override
     public void breath()
     {
-        return "lungs"
+        // return "lungs";
     }
 
     @Override
     public void reproduce()
     {
-        "live births"
+        // return "live births";
     }
 }
+
+String eat(int i);
+void move();
+void breath();
+void reproduce();
